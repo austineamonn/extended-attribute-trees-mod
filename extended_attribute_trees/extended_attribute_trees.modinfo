@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="extended_attribute_trees" version="0.1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_EXTENDED_ATTRIBUTE_TREES_NAME</Name>
+		<Description>LOC_MODULE_EXTENDED_ATTRIBUTE_TREES_DESCRIPTION</Description>
+		<Authors>Austin Nicolas</Authors>
+		<Package>DLC</Package>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<Version>0.1</Version>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+        <ActionGroup id="base-game-main-extended-attribute-trees" scope="game" criteria="always">
+            <Actions>
+                <UpdateDatabase>
+					<Item>data/science-tree-gameeffects.xml</Item>
+					<Item>data/science-tree.xml</Item>
+					<Item>data/constructibles.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+					<Item>text/en_us/ScienceText.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+		<ActionGroup id="shell-extended-attribute-trees" scope="shell" criteria="always">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/ScienceText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

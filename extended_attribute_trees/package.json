@@ -1,0 +1,15 @@
+{
+  "name": "extended_attribute_trees",
+  "description": "Civilization 7 extended attribute trees module",
+  "author": "Austin Nicolas",
+  "version": "0.1",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./*": "./src/*"
+  },
+  "dependencies": {
+    "modding-sdk": "workspace:*"
+  }
+}

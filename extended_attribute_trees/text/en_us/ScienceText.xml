@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+        <!-- New Science Tree Node Text -->
+
+		<Row Tag="MOD_NODE_ATTRIBUTE_SCIENTIFIC_11_DESCRIPTION">
+			<Text>+1[icon:YIELD_SCIENCE] Science on Tropical tiles in Cities.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

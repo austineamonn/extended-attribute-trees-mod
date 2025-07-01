@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_EXTENDED_ATTRIBUTE_TREES_NAME">
+			<Text>Extended Attribute Trees</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_EXTENDED_ATTRIBUTE_TREES_DESCRIPTION">
+			<Text>Contains additional nodes on the attribute trees.</Text>
+		</Row>
+		<Row Tag="LOC_AUTHORS">
+			<Text>Austin Nicolas</Text>
+		</Row>
+	</EnglishText>
+</Database>

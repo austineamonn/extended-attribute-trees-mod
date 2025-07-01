@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- New Science Tree Nodes -->
+
+		<Row Type="NODE_ATTRIBUTE_SCIENTIFIC_11" Kind="KIND_TREE_NODE"/>
+
+	</Types>
+	<Tags>
+	</Tags>
+	<TypeTags>
+	</TypeTags>
+	<TypeQuotes>
+	</TypeQuotes>
+	<ProgressionTrees>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+
+        <!-- Nodes -->
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_11" ProgressionTree="TREE_ATTRIBUTE_SCIENTIFIC" Cost="1"/>
+
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+
+        <!-- Node Effects-->
+		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_11" TargetKind="KIND_MODIFIER" TargetType="MOD_NODE_ATTRIBUTE_SCIENTIFIC_11_MODIFIER" UnlockDepth="1"/>
+
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+
+		<!-- Prereq Civics -->
+		<Row Node="NODE_ATTRIBUTE_SCIENTIFIC_11" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_09"/>
+
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+	</ProgressionTree_Advisories>
+	<UnitClass_Abilities>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+	</UnitAbilityModifiers>
+
+</Database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Kinds>
+        <InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
+    </Kinds>
+    <Constructible_WarehouseYields>
+        <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="NodeAttributeScientific11PalaceTropicalScience" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="NodeAttributeScientific11CityHallTropicalScience" RequiresActivation="true"/>
+    </Constructible_WarehouseYields>
+    <Warehouse_YieldChanges>
+        <Row ID="NodeAttributeScientific11PalaceTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
+        <Row ID="NodeAttributeScientific11CityHallTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
+    </Warehouse_YieldChanges>
+</Database>

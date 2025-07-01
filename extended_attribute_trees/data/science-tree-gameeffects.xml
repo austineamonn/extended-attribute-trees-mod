@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- New Scientific Tree Node Effects -->
+
+   <Modifier id="MOD_NODE_ATTRIBUTE_SCIENTIFIC_11_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+        <Argument name="ConstructibleWarehouseYield">NodeAttributeScientific11PalaceTropicalScience, NodeAttributeScientific11CityHallTropicalScience</Argument>
+        <String context="Description">MOD_NODE_ATTRIBUTE_SCIENTIFIC_11_DESCRIPTION</String>
+	</Modifier>
+
+</GameEffects>
