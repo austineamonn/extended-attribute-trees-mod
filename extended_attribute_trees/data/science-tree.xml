@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+        <!-- ================================================== -->
+        <!--    Scientific Attribute                            -->
+        <!-- ================================================== -->
 	<Types>
 		<!-- New Science Tree Nodes -->
 
@@ -18,18 +21,26 @@
 
         <!-- Nodes -->
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_11" ProgressionTree="TREE_ATTRIBUTE_SCIENTIFIC" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_12" ProgressionTree="TREE_ATTRIBUTE_SCIENTIFIC" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_13" ProgressionTree="TREE_ATTRIBUTE_SCIENTIFIC" Cost="1"/>
 
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 
         <!-- Node Effects-->
-		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_11" TargetKind="KIND_MODIFIER" TargetType="MOD_NODE_ATTRIBUTE_SCIENTIFIC_11_MODIFIER" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_11" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_SCIENTIFIC_11" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_12" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_SCIENTIFIC_12" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_SCIENTIFIC_13" UnlockDepth="1"/>
 
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 
 		<!-- Prereq Civics -->
-		<Row Node="NODE_ATTRIBUTE_SCIENTIFIC_11" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_09"/>
+		<Row Node="NODE_ATTRIBUTE_SCIENTIFIC_02" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_11"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_12" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_11"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_13" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_02"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_13" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_12"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_07" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_13"/>
 
 	</ProgressionTreePrereqs>
 	<ProgressionTree_Advisories>

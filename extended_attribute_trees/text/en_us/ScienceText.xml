@@ -4,7 +4,13 @@
 
         <!-- New Science Tree Node Text -->
 
-		<Row Tag="MOD_NODE_ATTRIBUTE_SCIENTIFIC_11_DESCRIPTION">
+		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_11_DESCRIPTION">
+			<Text>+1[icon:YIELD_SCIENCE] Science per Age on Science Buildings.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_12_DESCRIPTION">
+			<Text>+25% Production towards completing Projects.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_13_DESCRIPTION">
 			<Text>+1[icon:YIELD_SCIENCE] Science on Tropical tiles in Cities.</Text>
 		</Row>
 

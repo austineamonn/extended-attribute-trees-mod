@@ -3,12 +3,24 @@
 
 	<!-- New Scientific Tree Node Effects -->
 
-   <Modifier id="MOD_NODE_ATTRIBUTE_SCIENTIFIC_11_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+    <Modifier id="MOD_ATTRIBUTE_SCIENTIFIC_11" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <Argument name="Tag">SCIENCE</Argument>
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_SCIENTIFIC_11_DESCRIPTION</String>
+    </Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_SCIENTIFIC_12" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_PROJECT_PRODUCTION">
+        <Argument name="Percent">25</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_SCIENTIFIC_12_DESCRIPTION</String>
+    </Modifier>
+
+   <Modifier id="MOD_ATTRIBUTE_SCIENTIFIC_13" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
         <SubjectRequirements>
             <Requirement type="REQUIREMENT_CITY_IS_CITY"/>
 		</SubjectRequirements>
-        <Argument name="ConstructibleWarehouseYield">NodeAttributeScientific11PalaceTropicalScience, NodeAttributeScientific11CityHallTropicalScience</Argument>
-        <String context="Description">MOD_NODE_ATTRIBUTE_SCIENTIFIC_11_DESCRIPTION</String>
+        <Argument name="ConstructibleWarehouseYield">AttributeScientific13PalaceTropicalScience, AttributeScientific13CityHallTropicalScience</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_SCIENTIFIC_13_DESCRIPTION</String>
 	</Modifier>
 
 </GameEffects>

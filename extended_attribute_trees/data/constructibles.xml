@@ -4,11 +4,11 @@
         <InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
     </Kinds>
     <Constructible_WarehouseYields>
-        <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="NodeAttributeScientific11PalaceTropicalScience" RequiresActivation="true"/>
-        <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="NodeAttributeScientific11CityHallTropicalScience" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="AttributeScientific13PalaceTropicalScience" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="AttributeScientific13CityHallTropicalScience" RequiresActivation="true"/>
     </Constructible_WarehouseYields>
     <Warehouse_YieldChanges>
-        <Row ID="NodeAttributeScientific11PalaceTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
-        <Row ID="NodeAttributeScientific11CityHallTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
+        <Row ID="AttributeScientific13PalaceTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
+        <Row ID="AttributeScientific13CityHallTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
     </Warehouse_YieldChanges>
 </Database>
