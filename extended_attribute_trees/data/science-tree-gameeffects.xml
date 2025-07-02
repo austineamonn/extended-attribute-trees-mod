@@ -7,11 +7,13 @@
         <Argument name="Tag">SCIENCE</Argument>
         <Argument name="YieldType">YIELD_SCIENCE</Argument>
         <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_SCIENTIFIC</Argument>
         <String context="Description">LOC_MOD_ATTRIBUTE_SCIENTIFIC_11_DESCRIPTION</String>
     </Modifier>
 
     <Modifier id="MOD_ATTRIBUTE_SCIENTIFIC_12" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_PROJECT_PRODUCTION">
         <Argument name="Percent">25</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_SCIENTIFIC</Argument>
         <String context="Description">LOC_MOD_ATTRIBUTE_SCIENTIFIC_12_DESCRIPTION</String>
     </Modifier>
 
@@ -20,7 +22,46 @@
             <Requirement type="REQUIREMENT_CITY_IS_CITY"/>
 		</SubjectRequirements>
         <Argument name="ConstructibleWarehouseYield">AttributeScientific13PalaceTropicalScience, AttributeScientific13CityHallTropicalScience</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_SCIENTIFIC</Argument>
         <String context="Description">LOC_MOD_ATTRIBUTE_SCIENTIFIC_13_DESCRIPTION</String>
 	</Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_SCIENTIFIC_14" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_POPULATION">
+				<Argument name="MinUrbanPopulation">8</Argument>
+			</Requirement>
+            <Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+        <Argument name="Percent">10</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_SCIENTIFIC</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_SCIENTIFIC_14_DESCRIPTION</String>
+    </Modifier>
+
+    <RequirementSet id="REQSET_IS_URBAN_DISTRICT" type="REQUIREMENTSET_TEST_ANY">
+        <Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+            <Argument name="DistrictClass">CITYCENTER</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+            <Argument name="DistrictClass">URBAN</Argument>
+        </Requirement>
+    </RequirementSet>
+
+    <Modifier id="MOD_ATTRIBUTE_SCIENTIFIC_15" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+        <Argument name="ModifierId">ATTACH_MOD_ATTRIBUTE_SCIENTIFIC_15</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_SCIENTIFIC</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_SCIENTIFIC_15_DESCRIPTION</String>
+    </Modifier>
+
+    <Modifier id="ATTACH_MOD_ATTRIBUTE_SCIENTIFIC_15" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
+                <Argument name="RequirementSetId">REQSET_IS_URBAN_DISTRICT</Argument>
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
 
 </GameEffects>

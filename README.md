@@ -19,13 +19,16 @@ Religion Redux mod from RogueAustralian [link here](https://forums.civfanatics.c
     <li>adds a new node to the Scientific Attribute Tree: +1 Science per Age on Science Buildings.</li>
     <li>adds a new node to the Scientific Attribute Tree: +25% Production towards completing Projects.</li>
     <li>adds a new node to the Scientific Attribute Tree: +1 Science on Tropical tiles in Cities.</li>
+    <li>adds a new node to the Scientific Attribute Tree: +10% Science in Cities with at least 8 Urban Population.</li>
+    <li>adds a new node to the Scientific Attribute Tree: +1 Science on Urban Districts. Repeatable.</li>
 </ol>
 
-![Image of the Scientific Attribute Tree with a new node.](images/extra_science_on_tropical_city.png?raw=true "+1 Science on Tropical tiles in Cities.")
+![Image of the Scientific Attribute Tree with the first 4 new nodes.](images/new_science_attributes.png?raw=true "Scientific Attribute Tree with new nodes.")
+![Image of the Scientific Attribute Tree with the final 2 new nodes.](images/new_science_attributes_2.png?raw=true "Scientific Attribute Tree with new nodes.")
 
 ## Goals:
 
 <ol>
-    <li>Add additional attributes to each current attribute tree</li>
+    <li>Add 5 additional attributes to the remaining attribute trees</li>
     <li>Create new attribute trees</li>
 </ol>

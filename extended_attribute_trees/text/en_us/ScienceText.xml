@@ -8,10 +8,16 @@
 			<Text>+1[icon:YIELD_SCIENCE] Science per Age on Science Buildings.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_12_DESCRIPTION">
-			<Text>+25% Production towards completing Projects.</Text>
+			<Text>+25%[icon:YIELD_PRODUCTION] Production towards completing Projects.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_13_DESCRIPTION">
 			<Text>+1[icon:YIELD_SCIENCE] Science on Tropical tiles in Cities.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_14_DESCRIPTION">
+			<Text>+10%[icon:YIELD_SCIENCE] Science in Cities with at least 8 Urban Population.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_15_DESCRIPTION">
+			<Text>+1[icon:YIELD_SCIENCE] Science on Districts. Repeatable.</Text>
 		</Row>
 
 	</EnglishText>

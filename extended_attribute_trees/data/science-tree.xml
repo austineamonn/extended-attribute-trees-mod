@@ -7,6 +7,10 @@
 		<!-- New Science Tree Nodes -->
 
 		<Row Type="NODE_ATTRIBUTE_SCIENTIFIC_11" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_SCIENTIFIC_12" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_SCIENTIFIC_13" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_SCIENTIFIC_14" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_SCIENTIFIC_15" Kind="KIND_TREE_NODE"/>
 
 	</Types>
 	<Tags>
@@ -23,6 +27,8 @@
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_11" ProgressionTree="TREE_ATTRIBUTE_SCIENTIFIC" Cost="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_12" ProgressionTree="TREE_ATTRIBUTE_SCIENTIFIC" Cost="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_13" ProgressionTree="TREE_ATTRIBUTE_SCIENTIFIC" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_14" ProgressionTree="TREE_ATTRIBUTE_SCIENTIFIC" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_15" ProgressionTree="TREE_ATTRIBUTE_SCIENTIFIC" Cost="1" Repeatable="true"/>
 
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
@@ -31,6 +37,8 @@
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_11" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_SCIENTIFIC_11" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_12" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_SCIENTIFIC_12" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_SCIENTIFIC_13" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_SCIENTIFIC_14" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_SCIENTIFIC_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_SCIENTIFIC_15" UnlockDepth="1"/>
 
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
@@ -38,9 +46,17 @@
 		<!-- Prereq Civics -->
 		<Row Node="NODE_ATTRIBUTE_SCIENTIFIC_02" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_11"/>
         <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_12" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_11"/>
-        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_13" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_02"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_04" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_12"/>
         <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_13" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_12"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_13" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_02"/>
         <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_07" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_13"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_14" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_13"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_14" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_04"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_10" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_14"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_15" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_14"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_15" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_07"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_15" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_08"/>
+        <Row Node="NODE_ATTRIBUTE_SCIENTIFIC_15" PrereqNode="NODE_ATTRIBUTE_SCIENTIFIC_09"/>
 
 	</ProgressionTreePrereqs>
 	<ProgressionTree_Advisories>
