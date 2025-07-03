@@ -21,24 +21,27 @@
         <ActionGroup id="base-game-main-extended-attribute-trees" scope="game" criteria="always">
             <Actions>
                 <UpdateDatabase>
-					<Item>data/science-tree-gameeffects.xml</Item>
-					<Item>data/science-tree.xml</Item>
 					<Item>data/culture-tree-gameeffects.xml</Item>
 					<Item>data/culture-tree.xml</Item>
+					<Item>data/expansionist-tree-gameeffects.xml</Item>
+					<Item>data/expansionist-tree.xml</Item>
+					<Item>data/science-tree-gameeffects.xml</Item>
+					<Item>data/science-tree.xml</Item>
 					<Item>data/constructibles.xml</Item>
-					
                 </UpdateDatabase>
                 <UpdateText>
-					<Item>text/en_us/ScienceText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/ExpansionistText.xml</Item>
+					<Item>text/en_us/ScienceText.xml</Item>
                 </UpdateText>
             </Actions>
         </ActionGroup>
 		<ActionGroup id="shell-extended-attribute-trees" scope="shell" criteria="always">
 			<Actions>
 				<UpdateText>
-					<Item>text/en_us/ScienceText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/ExpansionistText.xml</Item>
+					<Item>text/en_us/ScienceText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

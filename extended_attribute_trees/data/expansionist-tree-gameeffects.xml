@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- New Expansionist Tree Node Effects -->
+
+    <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_11_A" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+        <Argument name="YieldType">YIELD_FOOD</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_EXPANSIONIST</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_EXPANSIONIST_11_DESCRIPTION</String>
+    </Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_11_B" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
+        <Argument name="YieldType">YIELD_FOOD</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+    </Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_12_A" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_UNLOCKED_PROGRESSION_TREE_NODE">
+		<Argument name="SystemType">SYSTEM_TECH</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+		<Argument name="Tooltip">LOC_TREE_ATTRIBUTE_EXPANSIONIST</Argument>
+		<String context="Description">LOC_MOD_ATTRIBUTE_EXPANSIONIST_12_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_12_B" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_UNLOCKED_PROGRESSION_TREE_NODE">
+		<Argument name="SystemType">SYSTEM_CULTURE</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+	</Modifier>
+
+   <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_13" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+        <Argument name="ConstructibleWarehouseYield">AttributeExpansionist13PalaceFarmFood, AttributeExpansionist13CityHallFoodFarm</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_EXPANSIONIST</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_EXPANSIONIST_13_DESCRIPTION</String>
+	</Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_14" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_POPULATION">
+				<Argument name="MinRuralPopulation">8</Argument>
+			</Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_FOOD</Argument>
+        <Argument name="Percent">10</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_EXPANSIONIST</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_EXPANSIONIST_14_DESCRIPTION</String>
+    </Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_15" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+        <Argument name="ModifierId">ATTACH_MOD_ATTRIBUTE_EXPANSIONIST_15</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_EXPANSIONIST</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_EXPANSIONIST_15_DESCRIPTION</String>
+    </Modifier>
+
+    <Modifier id="ATTACH_MOD_ATTRIBUTE_EXPANSIONIST_15" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+            <Argument name="DistrictClass">RURAL</Argument>
+        </Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_FOOD</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+
+</GameEffects>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<!-- New Scientific Tree Node Effects -->
+	<!-- New Cultural Tree Node Effects -->
 
     <Modifier id="MOD_ATTRIBUTE_CULTURAL_11" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
         <Argument name="Tag">CULTURE</Argument>

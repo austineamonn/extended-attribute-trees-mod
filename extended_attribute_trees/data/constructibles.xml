@@ -4,15 +4,19 @@
         <InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
     </Kinds>
     <Constructible_WarehouseYields>
-        <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="AttributeScientific13PalaceTropicalScience" RequiresActivation="true"/>
-        <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="AttributeScientific13CityHallTropicalScience" RequiresActivation="true"/>
         <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="AttributeCultural13PalaceTundraCulture" RequiresActivation="true"/>
         <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="AttributeCultural13CityHallTundraCulture" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="AttributeExpansionist13PalaceFarmFood" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="AttributeExpansionist13CityHallFoodFarm" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="AttributeScientific13PalaceTropicalScience" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="AttributeScientific13CityHallTropicalScience" RequiresActivation="true"/>
     </Constructible_WarehouseYields>
     <Warehouse_YieldChanges>
-        <Row ID="AttributeScientific13PalaceTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
-        <Row ID="AttributeScientific13CityHallTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
         <Row ID="AttributeCultural13PalaceTundraCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" BiomeInCity="BIOME_TUNDRA"/>
         <Row ID="AttributeCultural13CityHallTundraCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" BiomeInCity="BIOME_TUNDRA"/>
+        <Row ID="AttributeExpansionist13PalaceFarmFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FARM"/>
+        <Row ID="AttributeExpansionist13CityHallFoodFarm" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FARM"/>
+        <Row ID="AttributeScientific13PalaceTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
+        <Row ID="AttributeScientific13CityHallTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
     </Warehouse_YieldChanges>
 </Database>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
         <!-- ================================================== -->
-        <!--    CULTURAL Attribute                            -->
+        <!--    Cultural Attribute                            -->
         <!-- ================================================== -->
 	<Types>
-		<!-- New Science Tree Nodes -->
+		<!-- New Culture Tree Nodes -->
 
 		<Row Type="NODE_ATTRIBUTE_CULTURAL_11" Kind="KIND_TREE_NODE"/>
         <Row Type="NODE_ATTRIBUTE_CULTURAL_12" Kind="KIND_TREE_NODE"/>
