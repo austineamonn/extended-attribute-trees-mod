@@ -37,7 +37,8 @@
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_11" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_11" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_12" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_12" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_13" UnlockDepth="1"/>
-        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_14" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_14_A" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_14_B" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_15" UnlockDepth="1"/>
 
 	</ProgressionTreeNodeUnlocks>
