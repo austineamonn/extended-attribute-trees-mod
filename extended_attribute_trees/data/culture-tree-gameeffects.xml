@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- New Scientific Tree Node Effects -->
+
+    <Modifier id="MOD_ATTRIBUTE_CULTURAL_11" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <Argument name="Tag">CULTURE</Argument>
+        <Argument name="YieldType">YIELD_CULTURE</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_CULTURAL</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_CULTURAL_11_DESCRIPTION</String>
+    </Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_CULTURAL_12" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_PROJECT_PRODUCTION">
+        <Argument name="Percent">25</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_CULTURAL</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_CULTURAL_12_DESCRIPTION</String>
+    </Modifier>
+
+   <Modifier id="MOD_ATTRIBUTE_CULTURAL_13" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+        <Argument name="ConstructibleWarehouseYield">AttributeCultural13PalaceTundraCulture, AttributeCultural13CityHallTundraCulture</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_CULTURAL</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_CULTURAL_13_DESCRIPTION</String>
+	</Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_CULTURAL_14" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_POPULATION">
+				<Argument name="MinUrbanPopulation">8</Argument>
+			</Requirement>
+            <Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_CULTURE</Argument>
+        <Argument name="Percent">10</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_CULTURAL</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_CULTURAL_14_DESCRIPTION</String>
+    </Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_CULTURAL_15" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+        <Argument name="ModifierId">ATTACH_MOD_ATTRIBUTE_CULTURAL_15</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_CULTURAL</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_CULTURAL_15_DESCRIPTION</String>
+    </Modifier>
+
+    <Modifier id="ATTACH_MOD_ATTRIBUTE_CULTURAL_15" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+            <Argument name="DistrictClass">WONDER</Argument>
+        </Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_CULTURE</Argument>
+        <Argument name="Amount">5</Argument>
+    </Modifier>
+
+</GameEffects>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+        <!-- ================================================== -->
+        <!--    CULTURAL Attribute                            -->
+        <!-- ================================================== -->
+	<Types>
+		<!-- New Science Tree Nodes -->
+
+		<Row Type="NODE_ATTRIBUTE_CULTURAL_11" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_CULTURAL_12" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_CULTURAL_13" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_CULTURAL_14" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_CULTURAL_15" Kind="KIND_TREE_NODE"/>
+
+	</Types>
+	<Tags>
+	</Tags>
+	<TypeTags>
+	</TypeTags>
+	<TypeQuotes>
+	</TypeQuotes>
+	<ProgressionTrees>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+
+        <!-- Nodes -->
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_11" ProgressionTree="TREE_ATTRIBUTE_CULTURAL" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_12" ProgressionTree="TREE_ATTRIBUTE_CULTURAL" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_13" ProgressionTree="TREE_ATTRIBUTE_CULTURAL" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_14" ProgressionTree="TREE_ATTRIBUTE_CULTURAL" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_15" ProgressionTree="TREE_ATTRIBUTE_CULTURAL" Cost="1" Repeatable="true"/>
+
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+
+        <!-- Node Effects-->
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_11" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_11" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_12" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_12" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_13" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_14" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_CULTURAL_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_CULTURAL_15" UnlockDepth="1"/>
+
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+
+		<!-- Prereq Civics -->
+		<Row Node="NODE_ATTRIBUTE_CULTURAL_02" PrereqNode="NODE_ATTRIBUTE_CULTURAL_11"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_12" PrereqNode="NODE_ATTRIBUTE_CULTURAL_11"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_04" PrereqNode="NODE_ATTRIBUTE_CULTURAL_12"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_13" PrereqNode="NODE_ATTRIBUTE_CULTURAL_12"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_13" PrereqNode="NODE_ATTRIBUTE_CULTURAL_02"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_07" PrereqNode="NODE_ATTRIBUTE_CULTURAL_13"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_14" PrereqNode="NODE_ATTRIBUTE_CULTURAL_13"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_14" PrereqNode="NODE_ATTRIBUTE_CULTURAL_04"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_10" PrereqNode="NODE_ATTRIBUTE_CULTURAL_14"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_15" PrereqNode="NODE_ATTRIBUTE_CULTURAL_14"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_15" PrereqNode="NODE_ATTRIBUTE_CULTURAL_07"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_15" PrereqNode="NODE_ATTRIBUTE_CULTURAL_08"/>
+        <Row Node="NODE_ATTRIBUTE_CULTURAL_15" PrereqNode="NODE_ATTRIBUTE_CULTURAL_09"/>
+
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+	</ProgressionTree_Advisories>
+	<UnitClass_Abilities>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+	</UnitAbilityModifiers>
+
+</Database>

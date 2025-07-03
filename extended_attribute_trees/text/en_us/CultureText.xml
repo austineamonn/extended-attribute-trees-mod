@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+        <!-- New Culture Tree Node Text -->
+
+		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_11_DESCRIPTION">
+			<Text>+1[icon:YIELD_CULTURE] Culture per Age on Culture Buildings.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_12_DESCRIPTION">
+			<Text>+25%[icon:YIELD_PRODUCTION] Production towards completing Projects. CHANGE.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_13_DESCRIPTION">
+			<Text>+1[icon:YIELD_CULTURE] Culture on Tundra tiles in Cities.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_14_DESCRIPTION">
+			<Text>+10%[icon:YIELD_CULTURE] Culture in Cities with at least 8 Urban Population. CHANGE.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_15_DESCRIPTION">
+			<Text>+5[icon:YIELD_CULTURE] Culture on Wonders. Repeatable.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

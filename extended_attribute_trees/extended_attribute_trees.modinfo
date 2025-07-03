@@ -23,10 +23,14 @@
                 <UpdateDatabase>
 					<Item>data/science-tree-gameeffects.xml</Item>
 					<Item>data/science-tree.xml</Item>
+					<Item>data/culture-tree-gameeffects.xml</Item>
+					<Item>data/culture-tree.xml</Item>
 					<Item>data/constructibles.xml</Item>
+					
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>text/en_us/ScienceText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
                 </UpdateText>
             </Actions>
         </ActionGroup>
@@ -34,6 +38,7 @@
 			<Actions>
 				<UpdateText>
 					<Item>text/en_us/ScienceText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

@@ -21,6 +21,9 @@ Religion Redux mod from RogueAustralian [link here](https://forums.civfanatics.c
     <li>adds a new node to the Scientific Attribute Tree: +1 Science on Tropical tiles in Cities.</li>
     <li>adds a new node to the Scientific Attribute Tree: +10% Science in Cities with at least 8 Urban Population.</li>
     <li>adds a new node to the Scientific Attribute Tree: +1 Science on Urban Districts. Repeatable.</li>
+    <li>adds a new node to the Cultural Attribute Tree: +1 Culture per Age on Culture Buildings.</li>
+    <li>adds a new node to the Cultural Attribute Tree: +1 Culture on Tundra tiles in Cities.</li>
+    <li>adds a new node to the Cultural Attribute Tree: +5 Culture on Wonders. Repeatable.</li>
 </ol>
 
 ![Image of the Scientific Attribute Tree with the first 4 new nodes.](images/new_science_attributes.png?raw=true "Scientific Attribute Tree with new nodes.")
