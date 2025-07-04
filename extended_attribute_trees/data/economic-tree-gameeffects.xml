@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- New Economic Tree Node Effects -->
+
+    <Modifier id="MOD_ATTRIBUTE_ECONOMIC_11" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <Argument name="Tag">GOLD</Argument>
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_ECONOMIC</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_ECONOMIC_11_DESCRIPTION</String>
+    </Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_ECONOMIC_12" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+        <Argument name="Percent">25</Argument>
+        <Argument name="UnitType">UNIT_MERCHANT</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_ECONOMIC</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_ECONOMIC_12_DESCRIPTION</String>
+    </Modifier>
+
+   <Modifier id="MOD_ATTRIBUTE_ECONOMIC_13" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+        <Argument name="ConstructibleWarehouseYield">AttributeEconomic13PalaceDesertGold, AttributeEconomic13CityHallDesertGold</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_ECONOMIC</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_ECONOMIC_13_DESCRIPTION</String>
+	</Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_ECONOMIC_14_A" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TREE_ATTRIBUTE_ECONOMIC</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_ECONOMIC_14_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_ATTRIBUTE_ECONOMIC_14_B" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS" inverse="true">
+				<Argument name="OnlyCities">true</Argument>
+				<Argument name="OnlyTowns">false</Argument>
+				<Argument name="OnlyHomelands">false</Argument>
+				<Argument name="RequiredCount">4</Argument>
+				<Argument name="CountPerOwnSettlement">1</Argument>
+				<Argument name="CountPerConqueredSettlement">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_ECONOMIC_15_A" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Argument name="Amount">5</Argument>
+		<Argument name="DomainType">DOMAIN_LAND</Argument>
+        <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_ECONOMIC</Argument>
+        <String context="Description">LOC_MOD_ATTRIBUTE_ECONOMIC_15_DESCRIPTION</String>
+	</Modifier>
+
+    <Modifier id="MOD_ATTRIBUTE_ECONOMIC_15_B" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Argument name="Amount">5</Argument>
+		<Argument name="DomainType">DOMAIN_SEA</Argument>
+	</Modifier>
+
+</GameEffects>

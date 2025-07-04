@@ -32,6 +32,18 @@ Adds 5 new nodes to the Cultural Attribute Tree.
 ![Image of the Cultural Attribute Tree with the first 4 new nodes.](images/new_culture_attributes.png?raw=true "Cultural Attribute Tree with new nodes.")
 ![Image of the Cultural Attribute Tree with the final 2 new nodes.](images/new_culture_attributes_2.png?raw=true "Cultural Attribute Tree with new nodes.")
 
+### Economic Attribute Tree
+
+Adds 5 new nodes to the Economic Attribute Tree.
+
+<ol>
+    <li>+1 Gold per Age on Gold Buildings.</li>
+    <li>+25% Production towards Merchants.</li>
+    <li>+1 Gold on Desert tiles in Cities.</li>
+    <li>+1 Gold on Specialists, or +2 if you have 3 or fewer Cities.</li>
+    <li>+5 Trade Range. Repeatable.</li>
+</ol>
+
 ### Expansionist Attribute Tree
 
 Adds 5 new nodes to the Expansionist Attribute Tree.
@@ -43,6 +55,9 @@ Adds 5 new nodes to the Expansionist Attribute Tree.
     <li>+10% Food in Settlements with at least 8 Rural Population.</li>
     <li>+1 Food on Rural tiles. Repeatable.</li>
 </ol>
+
+![Image of the Expansionist Attribute Tree with the first 4 new nodes.](images/new_expansionist_attributes.png?raw=true "Expansionist Attribute Tree with new nodes.")
+![Image of the Expansionist Attribute Tree with the final 2 new nodes.](images/new_expansionist_attributes_2.png?raw=true "Expansionist Attribute Tree with new nodes.")
 
 ### Scientific Attribute Tree
 

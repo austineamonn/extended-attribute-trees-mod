@@ -6,6 +6,8 @@
     <Constructible_WarehouseYields>
         <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="AttributeCultural13PalaceTundraCulture" RequiresActivation="true"/>
         <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="AttributeCultural13CityHallTundraCulture" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="AttributeEconomic13PalaceDesertGold" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="AttributeEconomic13CityHallDesertGold" RequiresActivation="true"/>
         <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="AttributeExpansionist13PalaceFarmFood" RequiresActivation="true"/>
         <Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="AttributeExpansionist13CityHallFoodFarm" RequiresActivation="true"/>
         <Row ConstructibleType="BUILDING_PALACE" YieldChangeId="AttributeScientific13PalaceTropicalScience" RequiresActivation="true"/>
@@ -14,6 +16,8 @@
     <Warehouse_YieldChanges>
         <Row ID="AttributeCultural13PalaceTundraCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" BiomeInCity="BIOME_TUNDRA"/>
         <Row ID="AttributeCultural13CityHallTundraCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" BiomeInCity="BIOME_TUNDRA"/>
+        <Row ID="AttributeEconomic13PalaceDesertGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="1" BiomeInCity="BIOME_DESERT"/>
+        <Row ID="AttributeEconomic13CityHallDesertGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="1" BiomeInCity="BIOME_DESERT"/>
         <Row ID="AttributeExpansionist13PalaceFarmFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FARM"/>
         <Row ID="AttributeExpansionist13CityHallFoodFarm" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FARM"/>
         <Row ID="AttributeScientific13PalaceTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
