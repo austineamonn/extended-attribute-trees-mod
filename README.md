@@ -1,7 +1,7 @@
 # Extended Attribute Trees Mod
 
 Author: Austin Nicolas
-Version 0.1
+Version 1.0
 
 A mod for Civilization VII.
 
@@ -31,6 +31,21 @@ Adds 5 new nodes to the Cultural Attribute Tree.
 
 ![Image of the Cultural Attribute Tree with the first 4 new nodes.](images/new_culture_attributes.png?raw=true "Cultural Attribute Tree with new nodes.")
 ![Image of the Cultural Attribute Tree with the final 2 new nodes.](images/new_culture_attributes_2.png?raw=true "Cultural Attribute Tree with new nodes.")
+
+### Diplomatic Attribute Tree
+
+Adds 5 new nodes to the Diplomatic Attribute Tree.
+
+<ol>
+    <li>+1 Happiness per Age on Diplomacy and Happiness Buildings.</li>
+    <li>+10% Happiness in Cities while at peace.</li>
+    <li>+2 Happiness per Age for active Endeavors, Sanctions, and Projects you started or supported.</li>
+    <li>+2 Influence per Age for every Leader you are Friendly or Helpful with.</li>
+    <li>+1% towards all yields for every City State you are Suzerain of. Repeatable.</li>
+</ol>
+
+![Image of the Diplomatic Attribute Tree with the first 4 new nodes.](images/new_diplomatic_attributes.png?raw=true "Diplomatic Attribute Tree with new nodes.")
+![Image of the Diplomatic Attribute Tree with the final 3 new nodes.](images/new_diplomatic_attributes_2.png?raw=true "Diplomatic Attribute Tree with new nodes.")
 
 ### Economic Attribute Tree
 
@@ -91,14 +106,8 @@ Adds 5 new nodes to the Scientific Attribute Tree.
 ![Image of the Scientific Attribute Tree with the first 4 new nodes.](images/new_science_attributes.png?raw=true "Scientific Attribute Tree with new nodes.")
 ![Image of the Scientific Attribute Tree with the final 2 new nodes.](images/new_science_attributes_2.png?raw=true "Scientific Attribute Tree with new nodes.")
 
-## Goals:
-
-<ol>
-    <li>Add 5 additional attributes to the remaining 2 attribute trees</li>
-</ol>
-
 ## Compatibility:
 
 <ol>
-    <li>Not all bonuses are shown with leonardfactory's policy yield preview mod [link here](https://forums.civfanatics.com/resources/leonardfactorys-policy-yield-previews.32012/), as seen in some of the above screenshots. The two are still compatible and having both will not impact gameplay, the only impact is this visual bug.</li>
+    <li>Not all bonuses are shown with leonardfactory's policy yield preview mod, as seen in some of the above screenshots. The two are still compatible and having both will not impact gameplay, the only impact is this visual bug.</li>
 </ol>

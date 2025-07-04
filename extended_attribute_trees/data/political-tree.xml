@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+        <!-- ================================================== -->
+        <!--    Diplomatic Attribute                            -->
+        <!-- ================================================== -->
+	<Types>
+		<!-- New Diplomatic Tree Nodes -->
+
+		<Row Type="NODE_ATTRIBUTE_POLITICAL_11" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_POLITICAL_12" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_POLITICAL_13" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_POLITICAL_14" Kind="KIND_TREE_NODE"/>
+        <Row Type="NODE_ATTRIBUTE_POLITICAL_15" Kind="KIND_TREE_NODE"/>
+
+	</Types>
+	<Tags>
+	</Tags>
+	<TypeTags>
+	</TypeTags>
+	<TypeQuotes>
+	</TypeQuotes>
+	<ProgressionTrees>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+
+        <!-- Nodes -->
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_11" ProgressionTree="TREE_ATTRIBUTE_POLITICAL" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_12" ProgressionTree="TREE_ATTRIBUTE_POLITICAL" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_13" ProgressionTree="TREE_ATTRIBUTE_POLITICAL" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_14" ProgressionTree="TREE_ATTRIBUTE_POLITICAL" Cost="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_15" ProgressionTree="TREE_ATTRIBUTE_POLITICAL" Cost="1" Repeatable="true"/>
+
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+
+        <!-- Node Effects-->
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_11" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_11_A" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_11" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_11_B" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_12" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_12" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_13_A" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_13_B" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_13_C" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_14_A" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_14_B" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_15_A" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_15_B" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_15_C" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_15_D" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_15_E" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_15_F" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_POLITICAL_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_POLITICAL_15_G" UnlockDepth="1"/>
+
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+
+		<!-- Prereq Civics -->
+		<Row Node="NODE_ATTRIBUTE_POLITICAL_11" PrereqNode="NODE_ATTRIBUTE_POLITICAL_01"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_11" PrereqNode="NODE_ATTRIBUTE_POLITICAL_02"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_12" PrereqNode="NODE_ATTRIBUTE_POLITICAL_11"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_09" PrereqNode="NODE_ATTRIBUTE_POLITICAL_12"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_13" PrereqNode="NODE_ATTRIBUTE_POLITICAL_12"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_13" PrereqNode="NODE_ATTRIBUTE_POLITICAL_06"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_13" PrereqNode="NODE_ATTRIBUTE_POLITICAL_07"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_13" PrereqNode="NODE_ATTRIBUTE_POLITICAL_08"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_14" PrereqNode="NODE_ATTRIBUTE_POLITICAL_12"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_14" PrereqNode="NODE_ATTRIBUTE_POLITICAL_06"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_14" PrereqNode="NODE_ATTRIBUTE_POLITICAL_07"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_14" PrereqNode="NODE_ATTRIBUTE_POLITICAL_08"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_15" PrereqNode="NODE_ATTRIBUTE_POLITICAL_09"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_15" PrereqNode="NODE_ATTRIBUTE_POLITICAL_13"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_10" PrereqNode="NODE_ATTRIBUTE_POLITICAL_13"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_15" PrereqNode="NODE_ATTRIBUTE_POLITICAL_14"/>
+        <Row Node="NODE_ATTRIBUTE_POLITICAL_10" PrereqNode="NODE_ATTRIBUTE_POLITICAL_14"/>
+
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+	</ProgressionTree_Advisories>
+	<UnitClass_Abilities>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+	</UnitAbilityModifiers>
+
+</Database>

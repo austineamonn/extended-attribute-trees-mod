@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+        <!-- New Diplomatic Tree Node Text -->
+
+		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_11_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Age on Diplomacy and Happiness Buildings.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_12_DESCRIPTION">
+			<Text>+10%[icon:YIELD_HAPPINESS] Happiness in Cities while at peace.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_13_DESCRIPTION">
+			<Text>+2[icon:YIELD_HAPPINESS] Happiness per Age for active Endeavors, Sanctions, and Projects you started or supported.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_14_DESCRIPTION">
+			<Text>+2[icon:YIELD_DIPLOMACY] Influence per Age for every Leader you are Friendly or Helpful with.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_15_DESCRIPTION">
+			<Text>+1% towards all yields for every City State you are Suzerain of. Repeatable.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>
