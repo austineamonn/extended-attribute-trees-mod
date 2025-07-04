@@ -44,6 +44,9 @@ Adds 5 new nodes to the Economic Attribute Tree.
     <li>+5 Trade Range. Repeatable.</li>
 </ol>
 
+![Image of the Economic Attribute Tree with the first 4 new nodes.](images/new_economic_attributes.png?raw=true "Economic Attribute Tree with new nodes.")
+![Image of the Economic Attribute Tree with the final 2 new nodes.](images/new_economic_attributes_2.png?raw=true "Economic Attribute Tree with new nodes.")
+
 ### Expansionist Attribute Tree
 
 Adds 5 new nodes to the Expansionist Attribute Tree.
@@ -58,6 +61,20 @@ Adds 5 new nodes to the Expansionist Attribute Tree.
 
 ![Image of the Expansionist Attribute Tree with the first 4 new nodes.](images/new_expansionist_attributes.png?raw=true "Expansionist Attribute Tree with new nodes.")
 ![Image of the Expansionist Attribute Tree with the final 2 new nodes.](images/new_expansionist_attributes_2.png?raw=true "Expansionist Attribute Tree with new nodes.")
+
+### Militaristic Attribute Tree
+
+Adds 5 new nodes to the Militaristic Attribute Tree.
+
+<ol>
+    <li>+2 Production per Age on Military Buildings.</li>
+    <li>+10% Production in Cities while at war.</li>
+    <li>+1 Movement for Commanders.</li>
+    <li>+1 Production on Specialists, or +2 if you have 3 or fewer Cities.</li>
+    <li>+10% Efficiency towards increasing War Support. Repeatable.</li>
+</ol>
+
+![Image of the Militaristic Attribute Tree with the first 4 new nodes.](images/new_militaristic_attributes.png?raw=true "Militaristic Attribute Tree with new nodes.")
 
 ### Scientific Attribute Tree
 
@@ -74,11 +91,10 @@ Adds 5 new nodes to the Scientific Attribute Tree.
 ![Image of the Scientific Attribute Tree with the first 4 new nodes.](images/new_science_attributes.png?raw=true "Scientific Attribute Tree with new nodes.")
 ![Image of the Scientific Attribute Tree with the final 2 new nodes.](images/new_science_attributes_2.png?raw=true "Scientific Attribute Tree with new nodes.")
 
-
 ## Goals:
 
 <ol>
-    <li>Add 5 additional attributes to the remaining 3 attribute trees</li>
+    <li>Add 5 additional attributes to the remaining 2 attribute trees</li>
 </ol>
 
 ## Compatibility:

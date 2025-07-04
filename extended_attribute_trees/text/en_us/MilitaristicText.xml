@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+        <!-- New Militaristic Tree Node Text -->
+
+		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_11_DESCRIPTION">
+			<Text>+2[icon:YIELD_PRODUCTION] Production per Age on Military Buildings.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_12_DESCRIPTION">
+			<Text>+10%[icon:YIELD_PRODUCTION] Production in Cities while at war.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_13_DESCRIPTION">
+			<Text>+1 Movement for Commanders.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_14_DESCRIPTION">
+			<Text>+1[icon:YIELD_PRODUCTION] Production on Specialists, or +2 if you have 3 or fewer Cities.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_15_DESCRIPTION">
+			<Text>+10% Efficiency towards increasing War Support. Repeatable.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

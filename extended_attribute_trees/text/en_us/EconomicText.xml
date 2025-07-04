@@ -5,7 +5,7 @@
         <!-- New Economic Tree Node Text -->
 
 		<Row Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_11_DESCRIPTION">
-			<Text>+1[icon:YIELD_Gold] Gold per Age on Gold Buildings.</Text>
+			<Text>+1[icon:YIELD_GOLD] Gold per Age on Gold Buildings.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_12_DESCRIPTION">
 			<Text>+25%[icon:YIELD_PRODUCTION] Production towards Merchants.</Text>

@@ -27,6 +27,8 @@
 					<Item>data/economic-tree.xml</Item>
 					<Item>data/expansionist-tree-gameeffects.xml</Item>
 					<Item>data/expansionist-tree.xml</Item>
+					<Item>data/militaristic-tree-gameeffects.xml</Item>
+					<Item>data/militaristic-tree.xml</Item>
 					<Item>data/science-tree-gameeffects.xml</Item>
 					<Item>data/science-tree.xml</Item>
 					<Item>data/constructibles.xml</Item>
@@ -35,6 +37,7 @@
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/EconomicText.xml</Item>
 					<Item>text/en_us/ExpansionistText.xml</Item>
+					<Item>text/en_us/MilitaristicText.xml</Item>
 					<Item>text/en_us/ScienceText.xml</Item>
                 </UpdateText>
             </Actions>
@@ -45,6 +48,7 @@
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/EconomicText.xml</Item>
 					<Item>text/en_us/ExpansionistText.xml</Item>
+					<Item>text/en_us/MilitaristicText.xml</Item>
 					<Item>text/en_us/ScienceText.xml</Item>
 				</UpdateText>
 			</Actions>
