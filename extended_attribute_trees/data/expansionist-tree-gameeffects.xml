@@ -14,7 +14,7 @@
     <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_11_B" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
         <Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
         <Argument name="YieldType">YIELD_FOOD</Argument>
-        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
     </Modifier>
 
     <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_12_A" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_UNLOCKED_PROGRESSION_TREE_NODE">

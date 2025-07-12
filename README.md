@@ -1,6 +1,7 @@
 # Extended Attribute Trees Mod
 
 Author: Austin Nicolas
+
 Version 1.0
 
 A mod for Civilization VII.
@@ -68,7 +69,7 @@ Adds 5 new nodes to the Expansionist Attribute Tree.
 
 <ol>
     <li>+1 Food per Age on the Palace and City Halls.</li>
-    <li>+1 Food per Age in the Capital for every Tech and Civic Mastery completed in an Age.</li>
+    <li>+2 Food per Age in the Capital for every Tech and Civic Mastery completed in an Age.</li>
     <li>+1 Food on Farms in Towns.</li>
     <li>+10% Food in Settlements with at least 8 Rural Population.</li>
     <li>+1 Food on Rural tiles. Repeatable.</li>

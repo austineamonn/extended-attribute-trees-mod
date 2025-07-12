@@ -8,7 +8,7 @@
 			<Text>+1[icon:YIELD_FOOD] Food per Age on the Palace and City Halls.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_12_DESCRIPTION">
-			<Text>+1[icon:YIELD_FOOD] Food per Age in the Capital for every Tech and Civic Mastery completed in an Age.</Text>
+			<Text>+2[icon:YIELD_FOOD] Food per Age in the Capital for every Tech and Civic Mastery completed in an Age.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_13_DESCRIPTION">
 			<Text>+1[icon:YIELD_FOOD] Food on Farms in Towns.</Text>
