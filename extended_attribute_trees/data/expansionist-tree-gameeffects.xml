@@ -14,27 +14,27 @@
     <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_11_B" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
         <Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
         <Argument name="YieldType">YIELD_FOOD</Argument>
-        <Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
     </Modifier>
 
     <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_12_A" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_UNLOCKED_PROGRESSION_TREE_NODE">
 		<Argument name="SystemType">SYSTEM_TECH</Argument>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
 		<Argument name="Tooltip">LOC_TREE_ATTRIBUTE_EXPANSIONIST</Argument>
 		<String context="Description">LOC_MOD_ATTRIBUTE_EXPANSIONIST_12_DESCRIPTION</String>
 	</Modifier>
 	<Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_12_B" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_UNLOCKED_PROGRESSION_TREE_NODE">
 		<Argument name="SystemType">SYSTEM_CULTURE</Argument>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
 	</Modifier>
 
    <Modifier id="MOD_ATTRIBUTE_EXPANSIONIST_13" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
         <SubjectRequirements>
             <Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
 		</SubjectRequirements>
-        <Argument name="ConstructibleWarehouseYield">AttributeExpansionist13PalaceFarmFood, AttributeExpansionist13CityHallFoodFarm</Argument>
+        <Argument name="ConstructibleWarehouseYield">AttributeExpansionist13PalaceDesertFloodplainFeatureFood,AttributeExpansionist13PalaceGrasslandFloodplainFeatureFood,AttributeExpansionist13PalacePlainsFloodplainFeatureFood,AttributeExpansionist13PalaceTropicalFloodplainFeatureFood,AttributeExpansionist13PalaceTundraFloodplainFeatureFood,AttributeExpansionist13PalaceFlatTerrainFood,AttributeExpansionist13CityHallDesertFloodplainFeatureFood,AttributeExpansionist13CityHallGrasslandFloodplainFeatureFood,AttributeExpansionist13CityHallPlainsFloodplainFeatureFood,AttributeExpansionist13CityHallTropicalFloodplainFeatureFood,AttributeExpansionist13CityHallTundraFloodplainFeatureFood,AttributeExpansionist13CityHallFlatTerrainFood</Argument>
         <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_EXPANSIONIST</Argument>
         <String context="Description">LOC_MOD_ATTRIBUTE_EXPANSIONIST_13_DESCRIPTION</String>
 	</Modifier>
