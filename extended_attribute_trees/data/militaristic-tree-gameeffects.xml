@@ -65,12 +65,6 @@
 	</Modifier>
 
 	<Modifier id="ATTACH_MOD_ATTRIBUTE_MILITARISTIC_15" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
-			<Requirement type="REQUIREMENT_COMBAT_TYPE_MATCHES">
-				<Argument name="CombatType">COMBAT_MELEE</Argument>
-			</Requirement>
-		</SubjectRequirements>
 		<Argument name="Amount">1</Argument>
 		<String context="Preview">LOC_ATTACH_MOD_ATTRIBUTE_MILITARISTIC_15_PREVIEW</String>
 	</Modifier>

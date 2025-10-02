@@ -16,7 +16,7 @@ Religion Redux mod from RogueAustralian [link here](https://forums.civfanatics.c
 
 Policy Yield Preview mod from leonardfactory [link here](https://forums.civfanatics.com/resources/leonardfactorys-policy-yield-previews.32012/).
 
-## Current Mod
+## Current Mod:
 
 ### Cultural Attribute Tree
 
