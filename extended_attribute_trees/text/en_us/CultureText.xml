@@ -17,7 +17,7 @@
 			<Text>+1 Great Work Slot in Cities, or +2 if you have 3 or fewer Cities.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_15_DESCRIPTION">
-			<Text>+5[icon:YIELD_CULTURE] Culture on Wonders. Repeatable.</Text>
+			<Text>+1[icon:YIELD_CULTURE] Culture on Wonders. Repeatable.</Text>
 		</Row>
 
 	</EnglishText>

@@ -13,14 +13,6 @@
         <Row Type="NODE_ATTRIBUTE_EXPANSIONIST_15" Kind="KIND_TREE_NODE"/>
 
 	</Types>
-	<Tags>
-	</Tags>
-	<TypeTags>
-	</TypeTags>
-	<TypeQuotes>
-	</TypeQuotes>
-	<ProgressionTrees>
-	</ProgressionTrees>
 	<ProgressionTreeNodes>
 
         <!-- Nodes -->
@@ -38,15 +30,15 @@
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_EXPANSIONIST_11" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_EXPANSIONIST_11_B" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_EXPANSIONIST_12" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_EXPANSIONIST_12_A" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_EXPANSIONIST_12" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_EXPANSIONIST_12_B" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_EXPANSIONIST_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_EXPANSIONIST_13" UnlockDepth="1"/>
+	<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_EXPANSIONIST_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_EXPANSIONIST_13" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_EXPANSIONIST_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_EXPANSIONIST_14" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_EXPANSIONIST_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_EXPANSIONIST_15" UnlockDepth="1"/>
 
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 
-		<!-- Prereq Civics -->
-		<Row Node="NODE_ATTRIBUTE_EXPANSIONIST_02" PrereqNode="NODE_ATTRIBUTE_EXPANSIONIST_11"/>
+	<!-- Prereq Civics -->
+	<Row Node="NODE_ATTRIBUTE_EXPANSIONIST_02" PrereqNode="NODE_ATTRIBUTE_EXPANSIONIST_11"/>
         <Row Node="NODE_ATTRIBUTE_EXPANSIONIST_03" PrereqNode="NODE_ATTRIBUTE_EXPANSIONIST_11"/>
         <Row Node="NODE_ATTRIBUTE_EXPANSIONIST_12" PrereqNode="NODE_ATTRIBUTE_EXPANSIONIST_11"/>
         <Row Node="NODE_ATTRIBUTE_EXPANSIONIST_12" PrereqNode="NODE_ATTRIBUTE_EXPANSIONIST_01"/>
@@ -60,13 +52,5 @@
         <Row Node="NODE_ATTRIBUTE_EXPANSIONIST_15" PrereqNode="NODE_ATTRIBUTE_EXPANSIONIST_07"/>
 
 	</ProgressionTreePrereqs>
-	<ProgressionTree_Advisories>
-	</ProgressionTree_Advisories>
-	<UnitClass_Abilities>
-	</UnitClass_Abilities>
-	<UnitAbilities>
-	</UnitAbilities>
-	<UnitAbilityModifiers>
-	</UnitAbilityModifiers>
 
 </Database>

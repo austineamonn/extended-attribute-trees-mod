@@ -11,13 +11,13 @@
 			<Text>+2[icon:YIELD_FOOD] Food per Age in the Capital for every Tech and Civic Mastery completed in an Age.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_13_DESCRIPTION">
-			<Text>+1[icon:YIELD_FOOD] Food on Farms in Towns.</Text>
+			<Text>+2[icon:YIELD_FOOD] Food in Settlements for every Settlement under the Settlement Limit.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_14_DESCRIPTION">
-			<Text>+10%[icon:YIELD_FOOD] Food in Settlements with at least 8 Rural Population.</Text>
+			<Text>+10[icon:YIELD_FOOD] Food per Age in Settlements with at least 8 Rural Population.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_15_DESCRIPTION">
-			<Text>+1[icon:YIELD_FOOD] Food on Rural tiles. Repeatable.</Text>
+			<Text>+2[icon:YIELD_FOOD] Food in Towns per City. Repeatable.</Text>
 		</Row>
 
 	</EnglishText>

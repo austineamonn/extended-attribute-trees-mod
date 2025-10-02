@@ -69,7 +69,7 @@
         </Requirement>
         </SubjectRequirements>
         <Argument name="YieldType">YIELD_CULTURE</Argument>
-        <Argument name="Amount">5</Argument>
+        <Argument name="Amount">1</Argument>
     </Modifier>
 
 </GameEffects>

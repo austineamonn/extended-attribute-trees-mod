@@ -4,23 +4,15 @@
         <!--    Militaristic Attribute                            -->
         <!-- ================================================== -->
 	<Types>
-		<!-- New Militaristic Tree Nodes -->
+	<!-- New Militaristic Tree Nodes -->
 
-		<Row Type="NODE_ATTRIBUTE_MILITARISTIC_11" Kind="KIND_TREE_NODE"/>
+	<Row Type="NODE_ATTRIBUTE_MILITARISTIC_11" Kind="KIND_TREE_NODE"/>
         <Row Type="NODE_ATTRIBUTE_MILITARISTIC_12" Kind="KIND_TREE_NODE"/>
         <Row Type="NODE_ATTRIBUTE_MILITARISTIC_13" Kind="KIND_TREE_NODE"/>
         <Row Type="NODE_ATTRIBUTE_MILITARISTIC_14" Kind="KIND_TREE_NODE"/>
         <Row Type="NODE_ATTRIBUTE_MILITARISTIC_15" Kind="KIND_TREE_NODE"/>
 
 	</Types>
-	<Tags>
-	</Tags>
-	<TypeTags>
-	</TypeTags>
-	<TypeQuotes>
-	</TypeQuotes>
-	<ProgressionTrees>
-	</ProgressionTrees>
 	<ProgressionTreeNodes>
 
         <!-- Nodes -->
@@ -36,7 +28,7 @@
         <!-- Node Effects-->
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_MILITARISTIC_11" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_MILITARISTIC_11" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_MILITARISTIC_12" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_MILITARISTIC_12" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_MILITARISTIC_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_MILITARISTIC_13" UnlockDepth="1"/>
+	<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_MILITARISTIC_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_MILITARISTIC_13" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_MILITARISTIC_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_MILITARISTIC_14_A" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_MILITARISTIC_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_MILITARISTIC_14_B" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_MILITARISTIC_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_MILITARISTIC_15" UnlockDepth="1"/>
@@ -44,8 +36,8 @@
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 
-		<!-- Prereq Civics -->
-		<Row Node="NODE_ATTRIBUTE_MILITARISTIC_11" PrereqNode="NODE_ATTRIBUTE_MILITARISTIC_01"/>
+	<!-- Prereq Civics -->
+	<Row Node="NODE_ATTRIBUTE_MILITARISTIC_11" PrereqNode="NODE_ATTRIBUTE_MILITARISTIC_01"/>
         <Row Node="NODE_ATTRIBUTE_MILITARISTIC_11" PrereqNode="NODE_ATTRIBUTE_MILITARISTIC_02"/>
         <Row Node="NODE_ATTRIBUTE_MILITARISTIC_12" PrereqNode="NODE_ATTRIBUTE_MILITARISTIC_11"/>
         <Row Node="NODE_ATTRIBUTE_MILITARISTIC_09" PrereqNode="NODE_ATTRIBUTE_MILITARISTIC_12"/>
@@ -64,13 +56,5 @@
         <Row Node="NODE_ATTRIBUTE_MILITARISTIC_10" PrereqNode="NODE_ATTRIBUTE_MILITARISTIC_14"/>
 
 	</ProgressionTreePrereqs>
-	<ProgressionTree_Advisories>
-	</ProgressionTree_Advisories>
-	<UnitClass_Abilities>
-	</UnitClass_Abilities>
-	<UnitAbilities>
-	</UnitAbilities>
-	<UnitAbilityModifiers>
-	</UnitAbilityModifiers>
 
 </Database>

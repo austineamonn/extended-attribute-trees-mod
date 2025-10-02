@@ -4,23 +4,15 @@
         <!--    Economic Attribute                            -->
         <!-- ================================================== -->
 	<Types>
-		<!-- New Economic Tree Nodes -->
+	<!-- New Economic Tree Nodes -->
 
-		<Row Type="NODE_ATTRIBUTE_ECONOMIC_11" Kind="KIND_TREE_NODE"/>
+	<Row Type="NODE_ATTRIBUTE_ECONOMIC_11" Kind="KIND_TREE_NODE"/>
         <Row Type="NODE_ATTRIBUTE_ECONOMIC_12" Kind="KIND_TREE_NODE"/>
         <Row Type="NODE_ATTRIBUTE_ECONOMIC_13" Kind="KIND_TREE_NODE"/>
         <Row Type="NODE_ATTRIBUTE_ECONOMIC_14" Kind="KIND_TREE_NODE"/>
         <Row Type="NODE_ATTRIBUTE_ECONOMIC_15" Kind="KIND_TREE_NODE"/>
 
 	</Types>
-	<Tags>
-	</Tags>
-	<TypeTags>
-	</TypeTags>
-	<TypeQuotes>
-	</TypeQuotes>
-	<ProgressionTrees>
-	</ProgressionTrees>
 	<ProgressionTreeNodes>
 
         <!-- Nodes -->
@@ -36,7 +28,7 @@
         <!-- Node Effects-->
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_ECONOMIC_11" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_ECONOMIC_11" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_ECONOMIC_12" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_ECONOMIC_12" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_ECONOMIC_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_ECONOMIC_13" UnlockDepth="1"/>
+	<Row ProgressionTreeNodeType="NODE_ATTRIBUTE_ECONOMIC_13" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_ECONOMIC_13" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_ECONOMIC_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_ECONOMIC_14_A" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_ECONOMIC_14" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_ECONOMIC_14_B" UnlockDepth="1"/>
         <Row ProgressionTreeNodeType="NODE_ATTRIBUTE_ECONOMIC_15" TargetKind="KIND_MODIFIER" TargetType="MOD_ATTRIBUTE_ECONOMIC_15_A" UnlockDepth="1"/>
@@ -45,8 +37,8 @@
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 
-		<!-- Prereq Civics -->
-		<Row Node="NODE_ATTRIBUTE_ECONOMIC_02" PrereqNode="NODE_ATTRIBUTE_ECONOMIC_11"/>
+	<!-- Prereq Civics -->
+	<Row Node="NODE_ATTRIBUTE_ECONOMIC_02" PrereqNode="NODE_ATTRIBUTE_ECONOMIC_11"/>
         <Row Node="NODE_ATTRIBUTE_ECONOMIC_12" PrereqNode="NODE_ATTRIBUTE_ECONOMIC_11"/>
         <Row Node="NODE_ATTRIBUTE_ECONOMIC_04" PrereqNode="NODE_ATTRIBUTE_ECONOMIC_12"/>
         <Row Node="NODE_ATTRIBUTE_ECONOMIC_13" PrereqNode="NODE_ATTRIBUTE_ECONOMIC_12"/>
@@ -58,13 +50,5 @@
         <Row Node="NODE_ATTRIBUTE_ECONOMIC_15" PrereqNode="NODE_ATTRIBUTE_ECONOMIC_09"/>
 
 	</ProgressionTreePrereqs>
-	<ProgressionTree_Advisories>
-	</ProgressionTree_Advisories>
-	<UnitClass_Abilities>
-	</UnitClass_Abilities>
-	<UnitAbilities>
-	</UnitAbilities>
-	<UnitAbilityModifiers>
-	</UnitAbilityModifiers>
 
 </Database>
