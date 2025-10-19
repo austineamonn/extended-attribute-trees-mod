@@ -2,7 +2,7 @@
 
 Author: Austin Nicolas
 
-Version 1.1
+Version 1.1.1
 
 A mod for Civilization VII.
 
@@ -93,11 +93,11 @@ Adds 5 new nodes to the Scientific Attribute Tree.
 ## Compatibility:
 
 <ol>
-    <li>Not all bonuses are shown with leonardfactory's policy yield preview mod, as seen in some of the above screenshots. The two are still compatible and having both will not impact gameplay, the only impact is this visual bug.</li>
+    <li>Not all bonuses are shown with leonardfactory's policy yield preview mod, and some that are shown are incorrect. This is due to how the policy yield mod is made. The two are still compatible and having both will not impact gameplay, the only impact is this visual bug.</li>
 </ol>
 
 ## Latest Update:
 
 <ol>
-    <li>Adjusted attributes to match the strength of the attribute trees in update 1.2.5. Changed some attributes for flavor.</li>
+    <li>Removed unecessary requirementset.</li>
 </ol>

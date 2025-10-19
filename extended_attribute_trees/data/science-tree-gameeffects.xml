@@ -39,15 +39,6 @@
         <String context="Description">LOC_MOD_ATTRIBUTE_SCIENTIFIC_14_DESCRIPTION</String>
     </Modifier>
 
-    <RequirementSet id="REQSET_IS_URBAN_DISTRICT" type="REQUIREMENTSET_TEST_ANY">
-        <Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-            <Argument name="DistrictClass">CITYCENTER</Argument>
-        </Requirement>
-        <Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-            <Argument name="DistrictClass">URBAN</Argument>
-        </Requirement>
-    </RequirementSet>
-
     <Modifier id="MOD_ATTRIBUTE_SCIENTIFIC_15" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_ATTACH_MODIFIERS">
         <Argument name="ModifierId">ATTACH_MOD_ATTRIBUTE_SCIENTIFIC_15</Argument>
         <Argument name="Tooltip">LOC_TREE_ATTRIBUTE_SCIENTIFIC</Argument>
