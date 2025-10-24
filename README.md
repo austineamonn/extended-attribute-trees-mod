@@ -1,6 +1,6 @@
 # Extended Attribute Trees Mod
 
-Author: Austin Nicolas
+Author: austineamonn
 
 Version 1.1.1
 
@@ -22,6 +22,9 @@ Policy Yield Preview mod from leonardfactory [link here](https://forums.civfanat
 
 Adds 5 new nodes to the Cultural Attribute Tree.
 
+![Image of the first three new Cultural Attribute Tree nodes.](images/new_culture_attributes.png?raw=true "Cultural Attribute Tree Nodes.")
+![Image of the last two new Cultural Attribute Tree nodes.](images/new_culture_attributes_2.png?raw=true "Cultural Attribute Tree Nodes.")
+
 <ol>
     <li>+1 Culture per Age on Culture Buildings.</li>
     <li>+2 Culture per Age for each Tradition in the Government.</li>
@@ -33,6 +36,9 @@ Adds 5 new nodes to the Cultural Attribute Tree.
 ### Diplomatic Attribute Tree
 
 Adds 5 new nodes to the Diplomatic Attribute Tree.
+
+![Image of the first two new Diplomatic Attribute Tree nodes.](images/new_diplomatic_attributes.png?raw=true "Diplomatic Attribute Tree Nodes.")
+![Image of the last three new Diplomatic Attribute Tree nodes.](images/new_diplomatic_attributes_2.png?raw=true "Diplomatic Attribute Tree Nodes.")
 
 <ol>
     <li>+1 Happiness per Age on Diplomacy and Happiness Buildings. Doubled if a Building is both.</li>
@@ -46,6 +52,9 @@ Adds 5 new nodes to the Diplomatic Attribute Tree.
 
 Adds 5 new nodes to the Economic Attribute Tree.
 
+![Image of the first three new Economic Attribute Tree nodes.](images/new_economic_attributes.png?raw=true "Economic Attribute Tree Nodes.")
+![Image of the last two new Economic Attribute Tree nodes.](images/new_economic_attributes_2.png?raw=true "Economic Attribute Tree Nodes.")
+
 <ol>
     <li>+1 Gold per Age on Gold Buildings.</li>
     <li>+15% Production towards Merchants.</li>
@@ -57,6 +66,9 @@ Adds 5 new nodes to the Economic Attribute Tree.
 ### Expansionist Attribute Tree
 
 Adds 5 new nodes to the Expansionist Attribute Tree.
+
+![Image of the first three new Expansionist Attribute Tree nodes.](images/new_expansionist_attributes.png?raw=true "Expansionist Attribute Tree Nodes.")
+![Image of the last two new Expansionist Attribute Tree nodes.](images/new_expansionist_attributes_2.png?raw=true "Expansionist Attribute Tree Nodes.")
 
 <ol>
     <li>+1 Food per Age on the Palace and City Halls.</li>
@@ -70,6 +82,9 @@ Adds 5 new nodes to the Expansionist Attribute Tree.
 
 Adds 5 new nodes to the Militaristic Attribute Tree.
 
+![Image of the first two new Militaristic Attribute Tree nodes.](images/new_militaristic_attributes.png?raw=true "Militaristic Attribute Tree Nodes.")
+![Image of the last three new Militaristic Attribute Tree nodes.](images/new_militaristic_attributes_2.png?raw=true "Militaristic Attribute Tree Nodes.")
+
 <ol>
     <li>+2 Production per Age on Military Buildings.</li>
     <li>+10 Production per Age in Cities while at war.</li>
@@ -81,6 +96,9 @@ Adds 5 new nodes to the Militaristic Attribute Tree.
 ### Scientific Attribute Tree
 
 Adds 5 new nodes to the Scientific Attribute Tree.
+
+![Image of the first three new Scientific Attribute Tree nodes.](images/new_scientific_attributes.png?raw=true "Scientific Attribute Tree Nodes.")
+![Image of the last two new Scientific Attribute Tree nodes.](images/new_scientific_attributes_2.png?raw=true "Scientific Attribute Tree Nodes.")
 
 <ol>
     <li>+1 Science per Age on Science Buildings.</li>
@@ -99,5 +117,5 @@ Adds 5 new nodes to the Scientific Attribute Tree.
 ## Latest Update:
 
 <ol>
-    <li>Removed unecessary requirementset.</li>
+    <li>Updated README images.</li>
 </ol>

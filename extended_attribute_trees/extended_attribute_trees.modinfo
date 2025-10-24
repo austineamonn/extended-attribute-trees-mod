@@ -4,7 +4,7 @@
 	<Properties>
 		<Name>LOC_MODULE_EXTENDED_ATTRIBUTE_TREES_NAME</Name>
 		<Description>LOC_MODULE_EXTENDED_ATTRIBUTE_TREES_DESCRIPTION</Description>
-		<Authors>Austin Nicolas</Authors>
+		<Authors>austineamonn</Authors>
 		<Package>DLC</Package>
 		<AffectsSavedGames>1</AffectsSavedGames>
 		<Version>1.1.1</Version>
