@@ -97,8 +97,8 @@ Adds 5 new nodes to the Militaristic Attribute Tree.
 
 Adds 5 new nodes to the Scientific Attribute Tree.
 
-![Image of the first three new Scientific Attribute Tree nodes.](images/new_scientific_attributes.png?raw=true "Scientific Attribute Tree Nodes.")
-![Image of the last two new Scientific Attribute Tree nodes.](images/new_scientific_attributes_2.png?raw=true "Scientific Attribute Tree Nodes.")
+![Image of the first three new Scientific Attribute Tree nodes.](images/new_science_attributes.png?raw=true "Scientific Attribute Tree Nodes.")
+![Image of the last two new Scientific Attribute Tree nodes.](images/new_science_attributes_2.png?raw=true "Scientific Attribute Tree Nodes.")
 
 <ol>
     <li>+1 Science per Age on Science Buildings.</li>
