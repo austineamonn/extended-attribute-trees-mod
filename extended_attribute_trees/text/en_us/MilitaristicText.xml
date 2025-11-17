@@ -5,19 +5,19 @@
         <!-- New Militaristic Tree Node Text -->
 
 		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_11_DESCRIPTION">
-			<Text>+2[icon:YIELD_PRODUCTION] Production per Age on Military Buildings.</Text>
+			<Text>+2 [icon:YIELD_PRODUCTION] Production per Age on [icon:MILITARY] Military Buildings.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_12_DESCRIPTION">
-			<Text>+10[icon:YIELD_PRODUCTION] Production per Age in Cities while at war.</Text>
+			<Text>+10 [icon:YIELD_PRODUCTION] Production per Age in [icon:YIELD_CITIES] Cities while at war.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_13_DESCRIPTION">
-			<Text>+1 Movement for Commanders.</Text>
+			<Text>+1 Movement for [icon:UNIT_ARMY_COMMANDER] Commanders.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_14_DESCRIPTION">
-			<Text>+1[icon:YIELD_PRODUCTION] Production on Specialists, or +2 if you have 3 or fewer Cities.</Text>
+			<Text>+1 [icon:YIELD_PRODUCTION] Production on [icon:SPECIALIST] Specialists, or +2 if you have 3 or fewer [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_15_DESCRIPTION">
-			<Text>+1 Combat Strength for Infantry Units. Repeatable.</Text>
+			<Text>+1 [icon:NAR_REW_COMBAT] Combat Strength for Infantry Units. Repeatable.</Text>
 		</Row>
 		<Row Tag="LOC_ATTACH_MOD_ATTRIBUTE_MILITARISTIC_15_PREVIEW">
 			<Text>+{1_Amount} Militaristic Attribute.</Text>

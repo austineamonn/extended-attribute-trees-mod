@@ -5,19 +5,19 @@
         <!-- New Culture Tree Node Text -->
 
 		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_11_DESCRIPTION">
-			<Text>+1[icon:YIELD_CULTURE] Culture per Age on Culture Buildings.</Text>
+			<Text>+1 [icon:YIELD_CULTURE] Culture per Age on [icon:YIELD_CULTURE] Culture Buildings.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_12_DESCRIPTION">
-			<Text>+2[icon:YIELD_CULTURE] Culture per Age for each Tradition in the Government.</Text>
+			<Text>+2 [icon:YIELD_CULTURE] Culture per Age for each [icon:TRADITION] Tradition in the [icon:GOVERNMENT] Government.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_13_DESCRIPTION">
-			<Text>+1[icon:YIELD_CULTURE] Culture on Tundra tiles in Cities.</Text>
+			<Text>+1 [icon:YIELD_CULTURE] Culture on Tundra tiles in [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_14_DESCRIPTION">
-			<Text>+1 Great Work Slot in Cities, or +2 if you have 3 or fewer Cities.</Text>
+			<Text>+1 [icon:NAR_REW_GREATWORK] Great Work Slot in [icon:YIELD_CITIES] Cities, or +2 if you have 3 or fewer [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_15_DESCRIPTION">
-			<Text>+1[icon:YIELD_CULTURE] Culture on Wonders. Repeatable.</Text>
+			<Text>+1 [icon:YIELD_CULTURE] Culture on [icon:WONDER] Wonders. Repeatable.</Text>
 		</Row>
 
 	</EnglishText>

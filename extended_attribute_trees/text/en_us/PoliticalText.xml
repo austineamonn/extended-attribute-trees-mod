@@ -5,19 +5,19 @@
         <!-- New Diplomatic Tree Node Text -->
 
 		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_11_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Age on Diplomacy and Happiness Buildings. Doubled if a Building is both.</Text>
+			<Text>+1 [icon:YIELD_HAPPINESS] Happiness per Age on [icon:YIELD_DIPLOMACY] Diplomacy and [icon:YIELD_HAPPINESS] Happiness Buildings. Doubled if a Building is both.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_12_DESCRIPTION">
-			<Text>+10[icon:YIELD_HAPPINESS] Happiness per Age in Cities while at peace.</Text>
+			<Text>+10 [icon:YIELD_HAPPINESS] Happiness per Age in [icon:YIELD_CITIES] Cities while at peace.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_13_DESCRIPTION">
-			<Text>+2[icon:YIELD_HAPPINESS] Happiness per Age for active Endeavors, Sanctions, and Projects you started or supported.</Text>
+			<Text>+2 [icon:YIELD_HAPPINESS] Happiness per Age for active [icon:ENDEAVOR] Endeavors, [icon:SANCTIONS] Sanctions, and [icon:PROJECT] Projects you started or supported.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_14_DESCRIPTION">
-			<Text>+2[icon:YIELD_DIPLOMACY] Influence per Age for every Leader you are Friendly or Helpful with.</Text>
+			<Text>+2 [icon:YIELD_DIPLOMACY] Influence per Age for every Leader you are [icon:PLAYER_RELATIONSHIP_FRIENDLY] Friendly or [icon:PLAYER_RELATIONSHIP_HELPFUL] Helpful with.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_POLITICAL_15_DESCRIPTION">
-			<Text>+1[icon:YIELD_DIPLOMACY] Influence and [icon:YIELD_HAPPINESS] Happiness per Age for every City State you are Suzerain of. Repeatable.</Text>
+			<Text>+1 [icon:YIELD_DIPLOMACY] Influence and [icon:YIELD_HAPPINESS] Happiness per Age for every [icon:CITYSTATE] City-State you are Suzerain of. Repeatable.</Text>
 		</Row>
 
 	</EnglishText>

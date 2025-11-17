@@ -5,16 +5,16 @@
         <!-- New Economic Tree Node Text -->
 
 		<Row Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_11_DESCRIPTION">
-			<Text>+1[icon:YIELD_GOLD] Gold per Age on Gold Buildings.</Text>
+			<Text>+1 [icon:YIELD_GOLD] Gold per Age on [icon:YIELD_GOLD] Gold Buildings.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_12_DESCRIPTION">
-			<Text>+15%[icon:YIELD_PRODUCTION] Production towards Merchants.</Text>
+			<Text>+25% [icon:YIELD_PRODUCTION] Production towards Merchants.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_13_DESCRIPTION">
-			<Text>+1[icon:YIELD_GOLD] Gold on Desert tiles in Cities.</Text>
+			<Text>+1 [icon:YIELD_GOLD] Gold on Desert tiles in [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_14_DESCRIPTION">
-			<Text>+1[icon:YIELD_GOLD] Gold on Specialists, or +2 if you have 3 or fewer Cities.</Text>
+			<Text>+1 [icon:YIELD_GOLD] Gold on [icon:SPECIALIST] Specialists, or +2 if you have 3 or fewer [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_ECONOMIC_15_DESCRIPTION">
 			<Text>+5 Trade Range. Repeatable.</Text>

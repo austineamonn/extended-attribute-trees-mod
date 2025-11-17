@@ -5,19 +5,19 @@
         <!-- New Expansionist Tree Node Text -->
 
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_11_DESCRIPTION">
-			<Text>+1[icon:YIELD_FOOD] Food per Age on the Palace and City Halls.</Text>
+			<Text>+1 [icon:YIELD_FOOD] Food per Age on the Palace and City Halls.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_12_DESCRIPTION">
-			<Text>+2[icon:YIELD_FOOD] Food per Age in the Capital for every Tech and Civic Mastery completed in an Age.</Text>
+			<Text>+2 [icon:YIELD_FOOD] Food per Age in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every [icon:RADIAL_TECH] Tech and [icon:RADIAL_CIVICS] Civic Mastery completed in an Age.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_13_DESCRIPTION">
-			<Text>+2[icon:YIELD_FOOD] Food in Settlements for every Settlement under the Settlement Limit.</Text>
+			<Text>+2 [icon:YIELD_FOOD] Food in Settlements for every Settlement under the [icon:SETTLEMENT_LIMIT] Settlement Limit.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_14_DESCRIPTION">
-			<Text>+10[icon:YIELD_FOOD] Food per Age in Settlements with at least 8 Rural Population.</Text>
+			<Text>+10 [icon:YIELD_FOOD] Food per Age in Settlements with at least 8 Rural Population.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_EXPANSIONIST_15_DESCRIPTION">
-			<Text>+2[icon:YIELD_FOOD] Food in Towns per City. Repeatable.</Text>
+			<Text>+2 [icon:YIELD_FOOD] Food in [icon:YIELD_TOWNS] Towns per [icon:YIELD_CITIES] City. Repeatable.</Text>
 		</Row>
 
 	</EnglishText>

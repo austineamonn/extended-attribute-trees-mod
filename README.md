@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version 1.1.1
+Version 1.1.2
 
 A mod for Civilization VII.
 
@@ -45,7 +45,7 @@ Adds 5 new nodes to the Diplomatic Attribute Tree.
     <li>+10 Happiness per Age in Cities while at peace.</li>
     <li>+2 Happiness per Age for active Endeavors, Sanctions, and Projects you started or supported.</li>
     <li>+2 Influence per Age for every Leader you are Friendly or Helpful with.</li>
-    <li>+1 Influence and Happiness per Age for every City State you are Suzerain of. Repeatable.</li>
+    <li>+1 Influence and Happiness per Age for every City-State you are Suzerain of. Repeatable.</li>
 </ol>
 
 ### Economic Attribute Tree
@@ -57,7 +57,7 @@ Adds 5 new nodes to the Economic Attribute Tree.
 
 <ol>
     <li>+1 Gold per Age on Gold Buildings.</li>
-    <li>+15% Production towards Merchants.</li>
+    <li>+25% Production towards Merchants.</li>
     <li>+1 Gold on Desert tiles in Cities.</li>
     <li>+1 Gold on Specialists, or +2 if you have 3 or fewer Cities.</li>
     <li>+5 Trade Range. Repeatable.</li>
@@ -117,5 +117,5 @@ Adds 5 new nodes to the Scientific Attribute Tree.
 ## Latest Update:
 
 <ol>
-    <li>Updated README images.</li>
+    <li>Updated README images. Updated Text with icons.</li>
 </ol>

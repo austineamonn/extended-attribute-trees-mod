@@ -5,19 +5,19 @@
         <!-- New Science Tree Node Text -->
 
 		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_11_DESCRIPTION">
-			<Text>+1[icon:YIELD_SCIENCE] Science per Age on Science Buildings.</Text>
+			<Text>+1 [icon:YIELD_SCIENCE] Science per Age on [icon:YIELD_SCIENCE] Science Buildings.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_12_DESCRIPTION">
-			<Text>+15%[icon:YIELD_PRODUCTION] Production towards completing Projects.</Text>
+			<Text>+15% [icon:YIELD_PRODUCTION] Production towards completing [icon:PROJECT] Projects.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_13_DESCRIPTION">
-			<Text>+1[icon:YIELD_SCIENCE] Science on Tropical tiles in Cities.</Text>
+			<Text>+1 [icon:YIELD_SCIENCE] Science on Tropical tiles in [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_14_DESCRIPTION">
-			<Text>+10[icon:YIELD_SCIENCE] Science per Age in Cities with at least 8 Urban Population.</Text>
+			<Text>+10 [icon:YIELD_SCIENCE] Science per Age in [icon:YIELD_CITIES] Cities with at least 8 Urban Population.</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ATTRIBUTE_SCIENTIFIC_15_DESCRIPTION">
-			<Text>+1[icon:YIELD_SCIENCE] Science on Urban Districts in your Capital. Repeatable.</Text>
+			<Text>+1 [icon:YIELD_SCIENCE] Science on [icon:CITY_URBAN] Urban Districts in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital. Repeatable.</Text>
 		</Row>
 
 	</EnglishText>
